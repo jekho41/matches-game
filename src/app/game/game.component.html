@@ -1,0 +1,20 @@
+
+<p>Celui qui prend la dernière allumette gagne la partie !</p>
+
+<div>
+
+  <img *ngFor="let i of nbOfMatches" src="/assets/allumon.gif" />
+
+  <p>Player {{ playerTurn.id}} joue ! Combien prenez-vous d'allumettes ?
+
+    <button (click)="draw(1)">1</button>
+    <button (click)="draw(2)" [disabled]="nbOfMatches.length < 2">2</button>
+    <button (click)="draw(3)" [disabled]="nbOfMatches.length < 3">3</button>
+
+  </p>
+
+  <p>
+    <li *ngFor="let p of players">Player {{p.id}} : {{p.score}} pts</li>
+  </p>
+
+</div>
