@@ -9,6 +9,16 @@ import { Player } from '../model/player';
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.css']
 })
+/**
+ * Main View of the Matches game.
+ * 
+ * Display matches.
+ * Display player's names and scores.
+ * 
+ * On win, open an alert to say who won.
+ * 
+ * The game restart automatically.
+ */
 export class GameComponent implements OnInit { 
 
   static readonly NB_PLAYERS = 2;
