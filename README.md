@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Install dependencies
-In root folder, run 'npm install'.
+In root folder, run `npm install`
 
 ## Development server - Running project
 
